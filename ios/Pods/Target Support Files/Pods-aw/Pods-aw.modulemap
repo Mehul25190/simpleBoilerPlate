@@ -1,0 +1,6 @@
+module Pods_aw {
+  umbrella header "Pods-aw-umbrella.h"
+
+  export *
+  module * { export * }
+}
