@@ -76,7 +76,7 @@ ontop_fcontext:
         addi    %r2, %r2, .TOC.-ontop_fcontext@l
         .localentry ontop_fcontext, . - ontop_fcontext
 #else
-	.section ".opd","aw"
+	.section ".opd","physiocares"
 	.align 3
 ontop_fcontext:
 # ifdef _CALL_LINUX

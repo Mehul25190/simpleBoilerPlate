@@ -2676,10 +2676,10 @@
 		46EB2E00016F70 /* RNCSafeAreaViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000A410 /* RNCSafeAreaViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E00016F80 /* RNCSafeAreaViewMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000A430 /* RNCSafeAreaViewMode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E00016FE0 /* react-native-safe-area-context-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00016FD0 /* react-native-safe-area-context-dummy.m */; };
-		46EB2E000170C0 /* Pods-aw-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000170B0 /* Pods-aw-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00017120 /* Pods-aw-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017110 /* Pods-aw-dummy.m */; };
-		46EB2E00017200 /* Pods-aw-awTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000171F0 /* Pods-aw-awTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00017260 /* Pods-aw-awTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017250 /* Pods-aw-awTests-dummy.m */; };
+		46EB2E000170C0 /* Pods-physiocares-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000170B0 /* Pods-physiocares-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00017120 /* Pods-physiocares-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017110 /* Pods-physiocares-dummy.m */; };
+		46EB2E00017200 /* Pods-physiocares-physiocaresTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000171F0 /* Pods-physiocares-physiocaresTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00017260 /* Pods-physiocares-physiocaresTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017250 /* Pods-physiocares-physiocaresTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -4611,6 +4611,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		128C73F08A888F07EE4AC2CE0027A1AA /* Pods-physiocares */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-physiocares"; path = "libPods-physiocares.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "RCT-Folly"; path = "libRCT-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2577F299FCB0A19824FE989BE77B8E8F /* React-jsinspector */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsinspector"; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269BE773C9482484B70949A40F4EA525 /* React-RCTSettings */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTSettings"; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -7335,26 +7336,25 @@
 		46EB2E00016FB0 /* react-native-safe-area-context.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "react-native-safe-area-context.release.xcconfig"; sourceTree = "<group>"; };
 		46EB2E00016FC0 /* react-native-safe-area-context-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-safe-area-context-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E00016FD0 /* react-native-safe-area-context-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-safe-area-context-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00017080 /* Pods-aw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aw.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00017090 /* Pods-aw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aw.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000170A0 /* Pods-aw.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aw.modulemap"; sourceTree = "<group>"; };
-		46EB2E000170B0 /* Pods-aw-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aw-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000170D0 /* Pods-aw-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aw-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E000170E0 /* Pods-aw-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aw-resources.sh"; sourceTree = "<group>"; };
-		46EB2E000170F0 /* Pods-aw-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aw-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00017100 /* Pods-aw-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aw-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00017110 /* Pods-aw-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aw-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000171C0 /* Pods-aw-awTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aw-awTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000171D0 /* Pods-aw-awTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aw-awTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000171E0 /* Pods-aw-awTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aw-awTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E000171F0 /* Pods-aw-awTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aw-awTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00017210 /* Pods-aw-awTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aw-awTests-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00017220 /* Pods-aw-awTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aw-awTests-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00017230 /* Pods-aw-awTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aw-awTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00017240 /* Pods-aw-awTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aw-awTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00017250 /* Pods-aw-awTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aw-awTests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00017080 /* Pods-physiocares.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-physiocares.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00017090 /* Pods-physiocares.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-physiocares.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000170A0 /* Pods-physiocares.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-physiocares.modulemap"; sourceTree = "<group>"; };
+		46EB2E000170B0 /* Pods-physiocares-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-physiocares-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000170D0 /* Pods-physiocares-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-physiocares-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E000170E0 /* Pods-physiocares-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-physiocares-resources.sh"; sourceTree = "<group>"; };
+		46EB2E000170F0 /* Pods-physiocares-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-physiocares-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00017100 /* Pods-physiocares-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-physiocares-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00017110 /* Pods-physiocares-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-physiocares-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000171C0 /* Pods-physiocares-physiocaresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-physiocares-physiocaresTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000171D0 /* Pods-physiocares-physiocaresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-physiocares-physiocaresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000171E0 /* Pods-physiocares-physiocaresTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-physiocares-physiocaresTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E000171F0 /* Pods-physiocares-physiocaresTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-physiocares-physiocaresTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00017210 /* Pods-physiocares-physiocaresTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-physiocares-physiocaresTests-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00017220 /* Pods-physiocares-physiocaresTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-physiocares-physiocaresTests-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00017230 /* Pods-physiocares-physiocaresTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-physiocares-physiocaresTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00017240 /* Pods-physiocares-physiocaresTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-physiocares-physiocaresTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00017250 /* Pods-physiocares-physiocaresTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-physiocares-physiocaresTests-dummy.m"; sourceTree = "<group>"; };
 		50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNScreens; path = libRNScreens.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C8E7BD2BBCF43C0073FF3F20931C22 /* Pods-aw */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-aw"; path = "libPods-aw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCF98CEFF94C742080B6965D537AD0 /* react-native-safe-area-context */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-safe-area-context"; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5737DDB4BC95AD399B3206838AB97095 /* RNCAsyncStorage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNCAsyncStorage; path = libRNCAsyncStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3357A1CE67C0BF4AE31936A1BE6888 /* YogaKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = YogaKit; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -7369,7 +7369,6 @@
 		8F65F9361F2069CF9E9D751272968DE4 /* RNGestureHandler */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNGestureHandler; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD3DD8368ED4B6E773ABAA49C117D42 /* Flipper-Boost-iOSX */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-Boost-iOSX"; path = "libFlipper-Boost-iOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D5CD245388DC76AAEF6E1E351A90ED /* Flipper-Folly */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-Folly"; path = "libFlipper-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A05DCD0AD2F746F58B0F492164104322 /* Pods-aw-awTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-aw-awTests"; path = "libPods-aw-awTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B49761F8D1EB12585DD45CAA2E489F /* React-logger */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-logger"; path = "libReact-logger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68E5A9B69A3BA0FD52CAF7A354EC93B /* React-RCTNetwork */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTNetwork"; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBB7F62B267CC7C9BBBAE41DE94743B /* Flipper-PeerTalk */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-PeerTalk"; path = "libFlipper-PeerTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -7377,6 +7376,7 @@
 		BD71E2539823621820F84384064C253A /* React-Core */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-Core"; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A919103EAC9813D236486C34FC0A21 /* React-RCTVibration */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTVibration"; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C777CF2FB1E39A45CBBDB54E8693F471 /* RNReanimated */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNReanimated; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D102D7A9DE277DFA55CAD9EDB4AD180B /* Pods-physiocares-physiocaresTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-physiocares-physiocaresTests"; path = "libPods-physiocares-physiocaresTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C775614AC76D44CECB6BE08B022F1F /* ReactCommon */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ReactCommon; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F334F2E90E3EE462FC4192AF5C03BD /* React-jsi */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsi"; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A16705C69FC7DE11C2469A4A0F8358 /* React-RCTText */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTText"; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -7732,8 +7732,8 @@
 				F4BDA69E3BCB0166D49FB679ABADCA00 /* fmt */,
 				3CA7A9404CCDD6BA22C97F8348CE3209 /* glog */,
 				FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* libevent */,
-				52C8E7BD2BBCF43C0073FF3F20931C22 /* Pods-aw */,
-				A05DCD0AD2F746F58B0F492164104322 /* Pods-aw-awTests */,
+				128C73F08A888F07EE4AC2CE0027A1AA /* Pods-physiocares */,
+				D102D7A9DE277DFA55CAD9EDB4AD180B /* Pods-physiocares-physiocaresTests */,
 				1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */,
 				F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */,
 				E7178FECB829C9576A3723658B07F087 /* React-Codegen */,
@@ -7778,8 +7778,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00017070 /* Pods-aw */,
-				46EB2E000171B0 /* Pods-aw-awTests */,
+				46EB2E00017070 /* Pods-physiocares */,
+				46EB2E000171B0 /* Pods-physiocares-physiocaresTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -12540,38 +12540,38 @@
 			path = "../../ios/Pods/Target Support Files/react-native-safe-area-context";
 			sourceTree = "<group>";
 		};
-		46EB2E00017070 /* Pods-aw */ = {
+		46EB2E00017070 /* Pods-physiocares */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000170A0 /* Pods-aw.modulemap */,
-				46EB2E00017100 /* Pods-aw-acknowledgements.markdown */,
-				46EB2E000170F0 /* Pods-aw-acknowledgements.plist */,
-				46EB2E00017110 /* Pods-aw-dummy.m */,
-				46EB2E000170D0 /* Pods-aw-frameworks.sh */,
-				46EB2E000170E0 /* Pods-aw-resources.sh */,
-				46EB2E000170B0 /* Pods-aw-umbrella.h */,
-				46EB2E00017090 /* Pods-aw.debug.xcconfig */,
-				46EB2E00017080 /* Pods-aw.release.xcconfig */,
+				46EB2E000170A0 /* Pods-physiocares.modulemap */,
+				46EB2E00017100 /* Pods-physiocares-acknowledgements.markdown */,
+				46EB2E000170F0 /* Pods-physiocares-acknowledgements.plist */,
+				46EB2E00017110 /* Pods-physiocares-dummy.m */,
+				46EB2E000170D0 /* Pods-physiocares-frameworks.sh */,
+				46EB2E000170E0 /* Pods-physiocares-resources.sh */,
+				46EB2E000170B0 /* Pods-physiocares-umbrella.h */,
+				46EB2E00017090 /* Pods-physiocares.debug.xcconfig */,
+				46EB2E00017080 /* Pods-physiocares.release.xcconfig */,
 			);
-			name = "Pods-aw";
-			path = "Target Support Files/Pods-aw";
+			name = "Pods-physiocares";
+			path = "Target Support Files/Pods-physiocares";
 			sourceTree = "<group>";
 		};
-		46EB2E000171B0 /* Pods-aw-awTests */ = {
+		46EB2E000171B0 /* Pods-physiocares-physiocaresTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000171E0 /* Pods-aw-awTests.modulemap */,
-				46EB2E00017240 /* Pods-aw-awTests-acknowledgements.markdown */,
-				46EB2E00017230 /* Pods-aw-awTests-acknowledgements.plist */,
-				46EB2E00017250 /* Pods-aw-awTests-dummy.m */,
-				46EB2E00017210 /* Pods-aw-awTests-frameworks.sh */,
-				46EB2E00017220 /* Pods-aw-awTests-resources.sh */,
-				46EB2E000171F0 /* Pods-aw-awTests-umbrella.h */,
-				46EB2E000171D0 /* Pods-aw-awTests.debug.xcconfig */,
-				46EB2E000171C0 /* Pods-aw-awTests.release.xcconfig */,
+				46EB2E000171E0 /* Pods-physiocares-physiocaresTests.modulemap */,
+				46EB2E00017240 /* Pods-physiocares-physiocaresTests-acknowledgements.markdown */,
+				46EB2E00017230 /* Pods-physiocares-physiocaresTests-acknowledgements.plist */,
+				46EB2E00017250 /* Pods-physiocares-physiocaresTests-dummy.m */,
+				46EB2E00017210 /* Pods-physiocares-physiocaresTests-frameworks.sh */,
+				46EB2E00017220 /* Pods-physiocares-physiocaresTests-resources.sh */,
+				46EB2E000171F0 /* Pods-physiocares-physiocaresTests-umbrella.h */,
+				46EB2E000171D0 /* Pods-physiocares-physiocaresTests.debug.xcconfig */,
+				46EB2E000171C0 /* Pods-physiocares-physiocaresTests.release.xcconfig */,
 			);
-			name = "Pods-aw-awTests";
-			path = "Target Support Files/Pods-aw-awTests";
+			name = "Pods-physiocares-physiocaresTests";
+			path = "Target Support Files/Pods-physiocares-physiocaresTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -14564,7 +14564,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000170C0 /* Pods-aw-umbrella.h in Headers */,
+				46EB2E000170C0 /* Pods-physiocares-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -14572,7 +14572,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00017200 /* Pods-aw-awTests-umbrella.h in Headers */,
+				46EB2E00017200 /* Pods-physiocares-physiocaresTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -14648,75 +14648,6 @@
 			productReference = 396DAFDC3DCFBF31A37A3CC9488C0DDC /* Flipper-Fmt */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1202C98AB49A615FE187DE0326E5F50F /* Pods-aw-awTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00017140 /* Build configuration list for PBXNativeTarget "Pods-aw-awTests" */;
-			buildPhases = (
-				46EB2E00017180 /* Headers */,
-				46EB2E00017190 /* Sources */,
-				46EB2E000171A0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E00017940 /* PBXTargetDependency */,
-				46EB2E00017960 /* PBXTargetDependency */,
-				46EB2E00017980 /* PBXTargetDependency */,
-				46EB2E000179A0 /* PBXTargetDependency */,
-				46EB2E000179C0 /* PBXTargetDependency */,
-				46EB2E000179E0 /* PBXTargetDependency */,
-				46EB2E00017A00 /* PBXTargetDependency */,
-				46EB2E00017A20 /* PBXTargetDependency */,
-				46EB2E00017A40 /* PBXTargetDependency */,
-				46EB2E00017A60 /* PBXTargetDependency */,
-				46EB2E00017A80 /* PBXTargetDependency */,
-				46EB2E00017AA0 /* PBXTargetDependency */,
-				46EB2E00017AC0 /* PBXTargetDependency */,
-				46EB2E00017AE0 /* PBXTargetDependency */,
-				46EB2E00017B00 /* PBXTargetDependency */,
-				46EB2E00017B20 /* PBXTargetDependency */,
-				46EB2E00017B40 /* PBXTargetDependency */,
-				46EB2E00017B60 /* PBXTargetDependency */,
-				46EB2E00017B80 /* PBXTargetDependency */,
-				46EB2E00017BA0 /* PBXTargetDependency */,
-				46EB2E00017BC0 /* PBXTargetDependency */,
-				46EB2E00017BE0 /* PBXTargetDependency */,
-				46EB2E00017C00 /* PBXTargetDependency */,
-				46EB2E00017C20 /* PBXTargetDependency */,
-				46EB2E00017C40 /* PBXTargetDependency */,
-				46EB2E00017C60 /* PBXTargetDependency */,
-				46EB2E00017C80 /* PBXTargetDependency */,
-				46EB2E00017CA0 /* PBXTargetDependency */,
-				46EB2E00017CC0 /* PBXTargetDependency */,
-				46EB2E00017CE0 /* PBXTargetDependency */,
-				46EB2E00017D00 /* PBXTargetDependency */,
-				46EB2E00017D20 /* PBXTargetDependency */,
-				46EB2E00017D40 /* PBXTargetDependency */,
-				46EB2E00017D60 /* PBXTargetDependency */,
-				46EB2E00017D80 /* PBXTargetDependency */,
-				46EB2E00017DA0 /* PBXTargetDependency */,
-				46EB2E00017DC0 /* PBXTargetDependency */,
-				46EB2E00017DE0 /* PBXTargetDependency */,
-				46EB2E00017E00 /* PBXTargetDependency */,
-				46EB2E00017E20 /* PBXTargetDependency */,
-				46EB2E00017E40 /* PBXTargetDependency */,
-				46EB2E00017E60 /* PBXTargetDependency */,
-				46EB2E00017E80 /* PBXTargetDependency */,
-				46EB2E00017EA0 /* PBXTargetDependency */,
-				46EB2E00017EC0 /* PBXTargetDependency */,
-				46EB2E00017EE0 /* PBXTargetDependency */,
-				46EB2E00017F00 /* PBXTargetDependency */,
-				46EB2E00017F20 /* PBXTargetDependency */,
-				46EB2E00017F40 /* PBXTargetDependency */,
-				46EB2E00017F60 /* PBXTargetDependency */,
-				46EB2E00017F80 /* PBXTargetDependency */,
-				46EB2E00017FA0 /* PBXTargetDependency */,
-			);
-			name = "Pods-aw-awTests";
-			productName = "Pods-aw-awTests";
-			productReference = A05DCD0AD2F746F58B0F492164104322 /* Pods-aw-awTests */;
-			productType = "com.apple.product-type.library.static";
-		};
 		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E00015E30 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
@@ -14787,75 +14718,6 @@
 			name = RNScreens;
 			productName = RNScreens;
 			productReference = 50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */;
-			productType = "com.apple.product-type.library.static";
-		};
-		2A8271B9393E51C7672FB5D901ABDE24 /* Pods-aw */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00017000 /* Build configuration list for PBXNativeTarget "Pods-aw" */;
-			buildPhases = (
-				46EB2E00017040 /* Headers */,
-				46EB2E00017050 /* Sources */,
-				46EB2E00017060 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E000172C0 /* PBXTargetDependency */,
-				46EB2E000172E0 /* PBXTargetDependency */,
-				46EB2E00017300 /* PBXTargetDependency */,
-				46EB2E00017320 /* PBXTargetDependency */,
-				46EB2E00017340 /* PBXTargetDependency */,
-				46EB2E00017360 /* PBXTargetDependency */,
-				46EB2E00017380 /* PBXTargetDependency */,
-				46EB2E000173A0 /* PBXTargetDependency */,
-				46EB2E000173C0 /* PBXTargetDependency */,
-				46EB2E000173E0 /* PBXTargetDependency */,
-				46EB2E00017400 /* PBXTargetDependency */,
-				46EB2E00017420 /* PBXTargetDependency */,
-				46EB2E00017440 /* PBXTargetDependency */,
-				46EB2E00017460 /* PBXTargetDependency */,
-				46EB2E00017480 /* PBXTargetDependency */,
-				46EB2E000174A0 /* PBXTargetDependency */,
-				46EB2E000174C0 /* PBXTargetDependency */,
-				46EB2E000174E0 /* PBXTargetDependency */,
-				46EB2E00017500 /* PBXTargetDependency */,
-				46EB2E00017520 /* PBXTargetDependency */,
-				46EB2E00017540 /* PBXTargetDependency */,
-				46EB2E00017560 /* PBXTargetDependency */,
-				46EB2E00017580 /* PBXTargetDependency */,
-				46EB2E000175A0 /* PBXTargetDependency */,
-				46EB2E000175C0 /* PBXTargetDependency */,
-				46EB2E000175E0 /* PBXTargetDependency */,
-				46EB2E00017600 /* PBXTargetDependency */,
-				46EB2E00017620 /* PBXTargetDependency */,
-				46EB2E00017640 /* PBXTargetDependency */,
-				46EB2E00017660 /* PBXTargetDependency */,
-				46EB2E00017680 /* PBXTargetDependency */,
-				46EB2E000176A0 /* PBXTargetDependency */,
-				46EB2E000176C0 /* PBXTargetDependency */,
-				46EB2E000176E0 /* PBXTargetDependency */,
-				46EB2E00017700 /* PBXTargetDependency */,
-				46EB2E00017720 /* PBXTargetDependency */,
-				46EB2E00017740 /* PBXTargetDependency */,
-				46EB2E00017760 /* PBXTargetDependency */,
-				46EB2E00017780 /* PBXTargetDependency */,
-				46EB2E000177A0 /* PBXTargetDependency */,
-				46EB2E000177C0 /* PBXTargetDependency */,
-				46EB2E000177E0 /* PBXTargetDependency */,
-				46EB2E00017800 /* PBXTargetDependency */,
-				46EB2E00017820 /* PBXTargetDependency */,
-				46EB2E00017840 /* PBXTargetDependency */,
-				46EB2E00017860 /* PBXTargetDependency */,
-				46EB2E00017880 /* PBXTargetDependency */,
-				46EB2E000178A0 /* PBXTargetDependency */,
-				46EB2E000178C0 /* PBXTargetDependency */,
-				46EB2E000178E0 /* PBXTargetDependency */,
-				46EB2E00017900 /* PBXTargetDependency */,
-				46EB2E00017920 /* PBXTargetDependency */,
-			);
-			name = "Pods-aw";
-			productName = "Pods-aw";
-			productReference = 52C8E7BD2BBCF43C0073FF3F20931C22 /* Pods-aw */;
 			productType = "com.apple.product-type.library.static";
 		};
 		2AB2EF542954AB1C999E03BFEF8DE806 /* DoubleConversion */ = {
@@ -15384,6 +15246,75 @@
 			productReference = F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */;
 			productType = "com.apple.product-type.library.static";
 		};
+		D8A39149CB0102ADC08A07227D4BD627 /* Pods-physiocares-physiocaresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00017140 /* Build configuration list for PBXNativeTarget "Pods-physiocares-physiocaresTests" */;
+			buildPhases = (
+				46EB2E00017180 /* Headers */,
+				46EB2E00017190 /* Sources */,
+				46EB2E000171A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E00017940 /* PBXTargetDependency */,
+				46EB2E00017960 /* PBXTargetDependency */,
+				46EB2E00017980 /* PBXTargetDependency */,
+				46EB2E000179A0 /* PBXTargetDependency */,
+				46EB2E000179C0 /* PBXTargetDependency */,
+				46EB2E000179E0 /* PBXTargetDependency */,
+				46EB2E00017A00 /* PBXTargetDependency */,
+				46EB2E00017A20 /* PBXTargetDependency */,
+				46EB2E00017A40 /* PBXTargetDependency */,
+				46EB2E00017A60 /* PBXTargetDependency */,
+				46EB2E00017A80 /* PBXTargetDependency */,
+				46EB2E00017AA0 /* PBXTargetDependency */,
+				46EB2E00017AC0 /* PBXTargetDependency */,
+				46EB2E00017AE0 /* PBXTargetDependency */,
+				46EB2E00017B00 /* PBXTargetDependency */,
+				46EB2E00017B20 /* PBXTargetDependency */,
+				46EB2E00017B40 /* PBXTargetDependency */,
+				46EB2E00017B60 /* PBXTargetDependency */,
+				46EB2E00017B80 /* PBXTargetDependency */,
+				46EB2E00017BA0 /* PBXTargetDependency */,
+				46EB2E00017BC0 /* PBXTargetDependency */,
+				46EB2E00017BE0 /* PBXTargetDependency */,
+				46EB2E00017C00 /* PBXTargetDependency */,
+				46EB2E00017C20 /* PBXTargetDependency */,
+				46EB2E00017C40 /* PBXTargetDependency */,
+				46EB2E00017C60 /* PBXTargetDependency */,
+				46EB2E00017C80 /* PBXTargetDependency */,
+				46EB2E00017CA0 /* PBXTargetDependency */,
+				46EB2E00017CC0 /* PBXTargetDependency */,
+				46EB2E00017CE0 /* PBXTargetDependency */,
+				46EB2E00017D00 /* PBXTargetDependency */,
+				46EB2E00017D20 /* PBXTargetDependency */,
+				46EB2E00017D40 /* PBXTargetDependency */,
+				46EB2E00017D60 /* PBXTargetDependency */,
+				46EB2E00017D80 /* PBXTargetDependency */,
+				46EB2E00017DA0 /* PBXTargetDependency */,
+				46EB2E00017DC0 /* PBXTargetDependency */,
+				46EB2E00017DE0 /* PBXTargetDependency */,
+				46EB2E00017E00 /* PBXTargetDependency */,
+				46EB2E00017E20 /* PBXTargetDependency */,
+				46EB2E00017E40 /* PBXTargetDependency */,
+				46EB2E00017E60 /* PBXTargetDependency */,
+				46EB2E00017E80 /* PBXTargetDependency */,
+				46EB2E00017EA0 /* PBXTargetDependency */,
+				46EB2E00017EC0 /* PBXTargetDependency */,
+				46EB2E00017EE0 /* PBXTargetDependency */,
+				46EB2E00017F00 /* PBXTargetDependency */,
+				46EB2E00017F20 /* PBXTargetDependency */,
+				46EB2E00017F40 /* PBXTargetDependency */,
+				46EB2E00017F60 /* PBXTargetDependency */,
+				46EB2E00017F80 /* PBXTargetDependency */,
+				46EB2E00017FA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-physiocares-physiocaresTests";
+			productName = "Pods-physiocares-physiocaresTests";
+			productReference = D102D7A9DE277DFA55CAD9EDB4AD180B /* Pods-physiocares-physiocaresTests */;
+			productType = "com.apple.product-type.library.static";
+		};
 		DA0709CAAD589C6E7963495210438021 /* React-jsiexecutor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E00015790 /* Build configuration list for PBXNativeTarget "React-jsiexecutor" */;
@@ -15487,6 +15418,75 @@
 			name = "RCT-Folly";
 			productName = "RCT-Folly";
 			productReference = 1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED991C27D836AC5320DCBC7512F1776C /* Pods-physiocares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00017000 /* Build configuration list for PBXNativeTarget "Pods-physiocares" */;
+			buildPhases = (
+				46EB2E00017040 /* Headers */,
+				46EB2E00017050 /* Sources */,
+				46EB2E00017060 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E000172C0 /* PBXTargetDependency */,
+				46EB2E000172E0 /* PBXTargetDependency */,
+				46EB2E00017300 /* PBXTargetDependency */,
+				46EB2E00017320 /* PBXTargetDependency */,
+				46EB2E00017340 /* PBXTargetDependency */,
+				46EB2E00017360 /* PBXTargetDependency */,
+				46EB2E00017380 /* PBXTargetDependency */,
+				46EB2E000173A0 /* PBXTargetDependency */,
+				46EB2E000173C0 /* PBXTargetDependency */,
+				46EB2E000173E0 /* PBXTargetDependency */,
+				46EB2E00017400 /* PBXTargetDependency */,
+				46EB2E00017420 /* PBXTargetDependency */,
+				46EB2E00017440 /* PBXTargetDependency */,
+				46EB2E00017460 /* PBXTargetDependency */,
+				46EB2E00017480 /* PBXTargetDependency */,
+				46EB2E000174A0 /* PBXTargetDependency */,
+				46EB2E000174C0 /* PBXTargetDependency */,
+				46EB2E000174E0 /* PBXTargetDependency */,
+				46EB2E00017500 /* PBXTargetDependency */,
+				46EB2E00017520 /* PBXTargetDependency */,
+				46EB2E00017540 /* PBXTargetDependency */,
+				46EB2E00017560 /* PBXTargetDependency */,
+				46EB2E00017580 /* PBXTargetDependency */,
+				46EB2E000175A0 /* PBXTargetDependency */,
+				46EB2E000175C0 /* PBXTargetDependency */,
+				46EB2E000175E0 /* PBXTargetDependency */,
+				46EB2E00017600 /* PBXTargetDependency */,
+				46EB2E00017620 /* PBXTargetDependency */,
+				46EB2E00017640 /* PBXTargetDependency */,
+				46EB2E00017660 /* PBXTargetDependency */,
+				46EB2E00017680 /* PBXTargetDependency */,
+				46EB2E000176A0 /* PBXTargetDependency */,
+				46EB2E000176C0 /* PBXTargetDependency */,
+				46EB2E000176E0 /* PBXTargetDependency */,
+				46EB2E00017700 /* PBXTargetDependency */,
+				46EB2E00017720 /* PBXTargetDependency */,
+				46EB2E00017740 /* PBXTargetDependency */,
+				46EB2E00017760 /* PBXTargetDependency */,
+				46EB2E00017780 /* PBXTargetDependency */,
+				46EB2E000177A0 /* PBXTargetDependency */,
+				46EB2E000177C0 /* PBXTargetDependency */,
+				46EB2E000177E0 /* PBXTargetDependency */,
+				46EB2E00017800 /* PBXTargetDependency */,
+				46EB2E00017820 /* PBXTargetDependency */,
+				46EB2E00017840 /* PBXTargetDependency */,
+				46EB2E00017860 /* PBXTargetDependency */,
+				46EB2E00017880 /* PBXTargetDependency */,
+				46EB2E000178A0 /* PBXTargetDependency */,
+				46EB2E000178C0 /* PBXTargetDependency */,
+				46EB2E000178E0 /* PBXTargetDependency */,
+				46EB2E00017900 /* PBXTargetDependency */,
+				46EB2E00017920 /* PBXTargetDependency */,
+			);
+			name = "Pods-physiocares";
+			productName = "Pods-physiocares";
+			productReference = 128C73F08A888F07EE4AC2CE0027A1AA /* Pods-physiocares */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F1E2583679398CB5F4D2B3272E9B198F /* React-perflogger */ = {
@@ -15625,8 +15625,8 @@
 				D0EFEFB685D97280256C559792236873 /* glog */,
 				04A30E186743192DFB26B0FD7DB8F250 /* libevent */,
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
-				2A8271B9393E51C7672FB5D901ABDE24 /* Pods-aw */,
-				1202C98AB49A615FE187DE0326E5F50F /* Pods-aw-awTests */,
+				ED991C27D836AC5320DCBC7512F1776C /* Pods-physiocares */,
+				D8A39149CB0102ADC08A07227D4BD627 /* Pods-physiocares-physiocaresTests */,
 				EC55D52694092A9D0E6A78EB01207EB5 /* RCT-Folly */,
 				E7E7CE52C8C68B17224FF8C262D80ABF /* RCTRequired */,
 				D20469A9A1E5CFB26045EAEBE3F88E5E /* RCTTypeSafety */,
@@ -16986,7 +16986,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00017120 /* Pods-aw-dummy.m in Sources */,
+				46EB2E00017120 /* Pods-physiocares-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16994,7 +16994,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00017260 /* Pods-aw-awTests-dummy.m in Sources */,
+				46EB2E00017260 /* Pods-physiocares-physiocaresTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -21200,7 +21200,7 @@
 		};
 		46EB2E00017010 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00017080 /* Pods-aw.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00017080 /* Pods-physiocares.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -21209,7 +21209,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-aw/Pods-aw.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-physiocares/Pods-physiocares.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -21223,7 +21223,7 @@
 		};
 		46EB2E00017020 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00017090 /* Pods-aw.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00017090 /* Pods-physiocares.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -21232,7 +21232,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-aw/Pods-aw.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-physiocares/Pods-physiocares.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -21245,7 +21245,7 @@
 		};
 		46EB2E00017150 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000171C0 /* Pods-aw-awTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000171C0 /* Pods-physiocares-physiocaresTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -21254,7 +21254,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-aw-awTests/Pods-aw-awTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-physiocares-physiocaresTests/Pods-physiocares-physiocaresTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -21268,7 +21268,7 @@
 		};
 		46EB2E00017160 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000171D0 /* Pods-aw-awTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000171D0 /* Pods-physiocares-physiocaresTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -21277,7 +21277,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-aw-awTests/Pods-aw-awTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-physiocares-physiocaresTests/Pods-physiocares-physiocaresTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -21777,7 +21777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00017000 /* Build configuration list for PBXNativeTarget "Pods-aw" */ = {
+		46EB2E00017000 /* Build configuration list for PBXNativeTarget "Pods-physiocares" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00017020 /* Debug */,
@@ -21786,7 +21786,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00017140 /* Build configuration list for PBXNativeTarget "Pods-aw-awTests" */ = {
+		46EB2E00017140 /* Build configuration list for PBXNativeTarget "Pods-physiocares-physiocaresTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00017160 /* Debug */,

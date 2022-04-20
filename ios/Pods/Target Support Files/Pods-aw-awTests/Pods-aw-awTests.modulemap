@@ -1,6 +1,0 @@
-module Pods_aw_awTests {
-  umbrella header "Pods-aw-awTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

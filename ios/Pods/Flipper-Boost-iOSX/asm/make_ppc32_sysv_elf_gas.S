@@ -139,7 +139,7 @@ finish:
 .size make_fcontext, .-make_fcontext
 
 /* Provide the GOT pointer for secure PLT, large model. */
-.section .got2,"aw"
+.section .got2,"physiocares"
 .Ltoc = . + 0x8000
 
 /* Mark that we don't need executable stack.  */

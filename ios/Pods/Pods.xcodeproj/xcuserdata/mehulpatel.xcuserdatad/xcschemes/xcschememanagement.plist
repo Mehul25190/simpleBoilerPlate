@@ -74,12 +74,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-aw-awTests.xcscheme</key>
+		<key>Pods-physiocares-physiocaresTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-aw.xcscheme</key>
+		<key>Pods-physiocares.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -38,7 +38,7 @@ const LoginScreen = ({navigation}) => {
       return;
     }
     setLoading(true);
-    let dataToSend = {user_email: userEmail, user_password: userPassword};
+    let dataToSend = {email: userEmail, password: userPassword};
     let formBody = [];
     for (let key in dataToSend) {
       let encodedKey = encodeURIComponent(key);
@@ -47,12 +47,12 @@ const LoginScreen = ({navigation}) => {
     }
     formBody = formBody.join('&');
 
-    fetch('https://aboutreact.herokuapp.com/login.php', {
+    fetch('http://physiocare.edigillencedemo.in/api/login', {
       method: 'POST',
       body: formBody,
       headers: {
         //Header Defination
-        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+        //'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
       },
     })
       .then((response) => response.json())
@@ -91,7 +91,7 @@ const LoginScreen = ({navigation}) => {
           <KeyboardAvoidingView enabled>
             <View style={{alignItems: 'center'}}>
               <Image
-                source={require('../Image/aboutreact.png')}
+                source={require('../Image/logo.png')}
                 style={{
                   width: '50%',
                   height: 100,
@@ -140,11 +140,6 @@ const LoginScreen = ({navigation}) => {
               onPress={handleSubmitPress}>
               <Text style={styles.buttonTextStyle}>LOGIN</Text>
             </TouchableOpacity>
-            <Text
-              style={styles.registerTextStyle}
-              onPress={() => navigation.navigate('RegisterScreen')}>
-              New Here ? Register
-            </Text>
           </KeyboardAvoidingView>
         </View>
       </ScrollView>

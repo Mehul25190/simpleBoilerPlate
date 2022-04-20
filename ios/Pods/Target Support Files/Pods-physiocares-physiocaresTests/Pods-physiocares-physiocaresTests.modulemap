@@ -1,0 +1,6 @@
+module Pods_physiocares_physiocaresTests {
+  umbrella header "Pods-physiocares-physiocaresTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

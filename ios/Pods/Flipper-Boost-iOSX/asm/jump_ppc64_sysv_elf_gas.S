@@ -76,7 +76,7 @@ jump_fcontext:
         addi    %r2, %r2, .TOC.-jump_fcontext@l
         .localentry jump_fcontext, . - jump_fcontext
 #else
-	.section ".opd","aw"
+	.section ".opd","physiocares"
 	.align 3
 jump_fcontext:
 # ifdef _CALL_LINUX
